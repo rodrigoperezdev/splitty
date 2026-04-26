@@ -29,3 +29,4 @@ Splitty is a monorepo for a friend cost-splitting app. The repository is split i
 ## Version
 
 - `0.0.1`
+# splitty
