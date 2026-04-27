@@ -4,7 +4,7 @@
   "private": true,
   "workspaces": ["apps/*"],
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "dev:frontend": "npm --workspace @splitty/frontend run dev",
     "dev:backend": "npm --workspace @splitty/backend run dev",
     "build:frontend": "npm --workspace @splitty/frontend run build",
@@ -15,12 +15,14 @@
     "format:check": "prettier --check \"apps/**/*.{js,jsx,ts,tsx,md,css,json}\""
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.4",
-    "@commitlint/config-conventional": "17.7.4",
-    "eslint-config-prettier": "9.0.0",
-    "husky": "9.10.4",
-    "lint-staged": "14.6.0",
-    "prettier": "3.4.2"
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
+    "autoprefixer": "10.4.19",
+    "eslint-config-prettier": "9.1.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
+    "postcss": "8.4.34",
+    "prettier": "3.2.5"
   },
   "lint-staged": {
     "apps/frontend/**/*.{js,jsx,ts,tsx}": [

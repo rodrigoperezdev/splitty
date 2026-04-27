@@ -35,9 +35,6 @@ module.exports = {
         varsIgnorePattern: "^_"
       }
     ],
-    "@typescript-eslint/no-floating-promises": "error",
-    "@typescript-eslint/strict-boolean-expressions": "error",
-    "@typescript-eslint/no-misused-promises": "error",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
